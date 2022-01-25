@@ -12,5 +12,5 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generate
-find package/ -type d -name luci-app-easymesh -exec rm -r {} \;
-git clone https://github.com/zyl740176835/luci-app-easymesh package/luci-app-easymesh
+#find package/ -type d -name luci-app-easymesh -exec rm -r {} \;
+#git clone https://github.com/zyl740176835/luci-app-easymesh package/luci-app-easymesh
