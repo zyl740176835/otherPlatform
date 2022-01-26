@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build  close_drive_newifi
+name: Build  newifi_close
 
 on:
   repository_dispatch:
